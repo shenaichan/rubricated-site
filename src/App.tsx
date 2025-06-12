@@ -63,17 +63,57 @@ function App() {
               2024 with a B.S. in Computer Engineering & minors in
               Human-Computer Interaction and Physical Computing, and have since
               been hacking on web & hardware projects at the{" "}
-              <a href="https://recurse.com"> Recurse Center</a>.
+              <a
+                href="https://recurse.com"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                {" "}
+                Recurse Center
+              </a>
+              .
             </p>
             {/* aria ignore */}
             <p style={{ textAlign: "right" }}>
-              <a href="https://www.are.na/shenai-chan-8xbf6dstbgs/thought-nzylye7xtr4">
+              <a
+                href="https://www.are.na/shenai-chan-8xbf6dstbgs/thought-nzylye7xtr4"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
                 ARE.NA
               </a>{" "}
-              // <a href="https://github.com/shenaichan">GITHUB</a> //{" "}
-              <a href="https://www.linkedin.com/in/shenaichan/">LINKEDIN</a> //{" "}
-              <a href="/Shenai_Chan_Resume.pdf">RESUME</a> //{" "}
-              <a href="https://shenaichan.github.io">OLD SITE</a>
+              //{" "}
+              <a
+                href="https://github.com/shenaichan"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                GITHUB
+              </a>{" "}
+              //{" "}
+              <a
+                href="https://www.linkedin.com/in/shenaichan/"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                LINKEDIN
+              </a>{" "}
+              //{" "}
+              <a
+                href="/Shenai_Chan_Resume.pdf"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                RESUME
+              </a>{" "}
+              //{" "}
+              <a
+                href="https://shenaichan.github.io"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                OLD SITE
+              </a>
             </p>
           </div>
         ) : (
@@ -86,8 +126,19 @@ function App() {
                 partners, and family.
               </p>
               <p>
-                <a href="https://notes-from-afar.onrender.com/">live site</a> //{" "}
-                <a href="https://github.com/shenaichan/long_distance">
+                <a
+                  href="https://notes-from-afar.onrender.com/"
+                  target="_blank"
+                  rel="noopen noreferrer"
+                >
+                  live site
+                </a>{" "}
+                //{" "}
+                <a
+                  href="https://github.com/shenaichan/long_distance"
+                  target="_blank"
+                  rel="noopen noreferrer"
+                >
                   code & writeup
                 </a>
               </p>
@@ -96,12 +147,30 @@ function App() {
               <p>
                 <span className={css.strongtext}>TVennTropes</span> is a tool
                 for storytellers. Using data scraped from{" "}
-                <a href="https://tvtropes.org/">tvtropes.org</a>, the site
-                enables users to compare tropes shared across pieces of media.
+                <a
+                  href="https://tvtropes.org/"
+                  target="_blank"
+                  rel="noopen noreferrer"
+                >
+                  tvtropes.org
+                </a>
+                , the site enables users to compare tropes shared across pieces
+                of media.
               </p>
               <p>
-                <a href="https://www.tvenntropes.org/">live site</a> //{" "}
-                <a href="https://github.com/shenaichan/mediasimilarity">
+                <a
+                  href="https://www.tvenntropes.org/"
+                  target="_blank"
+                  rel="noopen noreferrer"
+                >
+                  live site
+                </a>{" "}
+                //{" "}
+                <a
+                  href="https://github.com/shenaichan/mediasimilarity"
+                  target="_blank"
+                  rel="noopen noreferrer"
+                >
                   code & writeup
                 </a>
               </p>
@@ -114,7 +183,11 @@ function App() {
                 microcontrollers.
               </p>
               <p>
-                <a href="https://github.com/shenaichan/hestia">
+                <a
+                  href="https://github.com/shenaichan/hestia"
+                  target="_blank"
+                  rel="noopen noreferrer"
+                >
                   code & writeup
                 </a>
               </p>
