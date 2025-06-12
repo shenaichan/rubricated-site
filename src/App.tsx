@@ -105,7 +105,6 @@ function App() {
                 microcontrollers.
               </p>
               <p>
-                <a href="/shenai_chan_resume.pdf">live site</a> //{" "}
                 <a href="https://shenaichan.github.io">code & writeup</a>
               </p>
             </div>
