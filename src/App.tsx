@@ -72,7 +72,7 @@ function App() {
               </a>{" "}
               // <a href="https://github.com/shenaichan">GITHUB</a> //{" "}
               <a href="https://www.linkedin.com/in/shenaichan/">LINKEDIN</a> //{" "}
-              <a href="/shenai_chan_resume.pdf">RESUME</a> //{" "}
+              <a href="/Shenai_Chan_Resume.pdf">RESUME</a> //{" "}
               <a href="https://shenaichan.github.io">OLD SITE</a>
             </p>
           </div>
@@ -86,19 +86,24 @@ function App() {
                 partners, and family.
               </p>
               <p>
-                <a href="/shenai_chan_resume.pdf">live site</a> //{" "}
-                <a href="https://shenaichan.github.io">code & writeup</a>
+                <a href="https://notes-from-afar.onrender.com/">live site</a> //{" "}
+                <a href="https://github.com/shenaichan/long_distance">
+                  code & writeup
+                </a>
               </p>
             </div>
             <div className={css.project}>
               <p>
                 <span className={css.strongtext}>TVennTropes</span> is a tool
-                for storytellers. Using data scraped from tvtropes.org, the site
+                for storytellers. Using data scraped from{" "}
+                <a href="https://tvtropes.org/">tvtropes.org</a>, the site
                 enables users to compare tropes shared across pieces of media.
               </p>
               <p>
-                <a href="/shenai_chan_resume.pdf">live site</a> //{" "}
-                <a href="https://shenaichan.github.io">code & writeup</a>
+                <a href="https://www.tvenntropes.org/">live site</a> //{" "}
+                <a href="https://github.com/shenaichan/mediasimilarity">
+                  code & writeup
+                </a>
               </p>
             </div>
             <div className={css.project}>
@@ -109,7 +114,9 @@ function App() {
                 microcontrollers.
               </p>
               <p>
-                <a href="https://shenaichan.github.io">code & writeup</a>
+                <a href="https://github.com/shenaichan/hestia">
+                  code & writeup
+                </a>
               </p>
             </div>
             {showMore ? (
