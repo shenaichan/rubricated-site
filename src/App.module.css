@@ -1,0 +1,152 @@
+:root {
+  --bg-color: #fffff8;
+  --text-color: #000000;
+  --accent-color: #ff0000;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Lora", "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+#all {
+  margin: 64px;
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 600px) 1fr;
+}
+
+#name {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: max-content 16px max-content;
+  color: var(--accent-color);
+  line-height: 1;
+  font-family: "Martian Mono", "Courier New", Courier, monospace;
+  font-size: 64px;
+  font-weight: 700;
+  font-variation-settings: "wdth" 112.5;
+  margin-bottom: 128px;
+}
+
+.firstname {
+  display: flex;
+  justify-content: start;
+}
+
+.lastname {
+  display: flex;
+  justify-content: end;
+}
+
+#contents {
+  margin-bottom: 128px;
+  grid-area: 2 / 2;
+}
+
+#tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-family: "Martian Mono", "Courier New", Courier, monospace;
+  margin-bottom: 32px;
+}
+
+.tab {
+  flex: 1;
+  opacity: 50%;
+  background-color: unset;
+  border: unset;
+  border-bottom: 2px solid var(--text-color);
+  display: flex;
+  justify-content: center;
+}
+
+.tab:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.selected {
+  opacity: 100%;
+  font-weight: 700;
+}
+
+#about {
+  margin-bottom: 48px;
+}
+
+.projects h2 {
+  font-family: "Martian Mono", "Courier New", Courier, monospace;
+  font-size: 32px;
+  margin-bottom: 64px;
+}
+
+.project {
+  margin: 64px 0px;
+}
+
+.project br {
+  font-size: 50%;
+}
+
+.project p:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+#showmore {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#showmore:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#moreprojects li {
+  margin: 8px 0px;
+}
+
+#moreprojects ul {
+  margin: 16px 0px;
+  padding: 0;
+}
+
+.strongtext {
+  font-family: "Martian Mono", "Courier New", Courier, monospace;
+  /* font-size: 24px; */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  font-family: "Martian Mono", "Courier New", Courier, monospace;
+  color: var(--accent-color);
+}
+
+/* a {
+  text-transform: uppercase;
+} */
+
+/* .nameletter {
+
+} */
+
+@media (max-width: 640px) {
+  #all {
+    margin: 64px 24px;
+  }
+
+  #name {
+    font-variation-settings: "wdth" 100;
+  }
+}
+@media (max-width: 512px) {
+  #name {
+    font-size: 40px;
+  }
+}
