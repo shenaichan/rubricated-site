@@ -33,6 +33,10 @@ function App() {
           </div>
         ))}
       </div>
+      <div id={css.name2}>
+        <p style={{ marginBottom: "16px" }}>{FIRST_NAME}</p>
+        <p style={{ textAlign: "right" }}>{LAST_NAME}</p>
+      </div>
       <div id={css.contents}>
         <div id={css.tabs}>
           <button

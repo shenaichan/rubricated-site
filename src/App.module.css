@@ -18,9 +18,21 @@ body {
 
 #name {
   display: grid;
-  grid-column: 2;
+  grid-area: 1 / 2;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: max-content 16px max-content;
+  color: var(--accent-color);
+  line-height: 1;
+  font-family: "Martian Mono", "Courier New", Courier, monospace;
+  font-size: 64px;
+  font-weight: 700;
+  font-variation-settings: "wdth" 112.5;
+  margin-bottom: 128px;
+}
+
+#name2 {
+  display: none;
+  grid-area: 1 / 2;
   color: var(--accent-color);
   line-height: 1;
   font-family: "Martian Mono", "Courier New", Courier, monospace;
@@ -146,13 +158,13 @@ a:hover {
   #all {
     margin: 64px 24px;
   }
-
-  #name {
-    font-variation-settings: "wdth" 100;
-  }
 }
-@media (max-width: 512px) {
+@media (max-width: 528px) {
   #name {
-    font-size: 40px;
+    display: none;
+  }
+
+  #name2 {
+    display: block;
   }
 }
